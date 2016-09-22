@@ -1,0 +1,335 @@
+========================Day 1 =============
+
+ crockford.com
+
+ECMAC javascript ES6
+
+latentloupe
+http://latentflip.com/loupe/
+
+http://latentflip.com/loupe/?code=!!!
+
+MDN Concurrency Model 
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop 
+ 
+Browser environment 
+
+1. JS engine
+	Stack 
+	Heap
+
+2. Web APIS
+
+3. Call back and Queue
+
+4. Event looping
+
+If every browser has it's own implementation and version of rendering engine  , end user experience in different browsers may not be the same - some features may be broken or may not work properly . How is this handled ? If this will be covered later , then not an issue.
+
+Execution context : One funtion in js called execution context , which is a frame in stack.
+
+Stack has sequence of frame.
+
+Examples of stack overflow shown here
+
+Visual Studio Code - Best editor
+
+Eclipse based - Node Eclipse
+
+JS - Scope chaining and scripting 
+
+Global Execution Context on startup
+
+Context - two phases 
+1. Context Creation phases -
+
+	all var variables will be hoisted to top of context with default value called undefined
+	
+2. Context Execution phases
+	
+	
+---------------
+
+every function will create execution context but is child execution context
+
+let vs const var keyword
+
+kangax github io
+
+var is not prefered
+let - mutable
+const - immutable 
+
+without var declaration , it is global scope
+
+Dynamic method binding...
+
+exploringjs.com
+speakingjs.com http://speakingjs.com/
+
+invoking functions in js in 4 ways
+1. function invocation - global obkect
+2. method invocation - invoker objkect
+3. constructor invocation - new object
+4. call/apply/bind invocation - arg-obj
+
+
+https://github.com/nagabhushanamn/DEP-PCC-LeanPortal
+
+https://github.com/nagabhushanamn/DEP-PCC-LeanPortal.git
+
+========== Day2 =================
+
+Inheritance - in JS 
+
+Using prototypes
+
+isProtoTypeOf
+
+Every object extends Object prototype
+
+https://dorey.github.io/JavaScript-Equality-Table/
+
+Type coherence : Always use triple equals for comparsion instead of double equals
+
+JS Modules
+
+ES-5 , ES-6
+
+Avoid globals , IIFE pattern , self executing pattern
+
+Global Object wraps every thing. then export other stuff
+
+Single global to avoid conflicting
+
+Module standards and Module loader 
+
+3rd party module standards
+
+1.AMD
+2.commonJS
+3.System JS ( Angular 2)
+
+ES6 module standards
+
+Packaging - Common Modules 
+
+AMD Loader . require js 
+
+CommonJS modules
+
+Browser does not know commonjs while node js loads properly 
+
+Loader 
+
+Tools to convert commonjs , bundling into some othing else 
+
+Browserify -  to convert commonjs modules to browser 
+
+ES6 Module 
+
+CanIuse.com
+
+Babel js compiler - used to compile ES6 code to ES5 . Polyfill/Transpile 
+
+importing attributes between different files
+
+ES6 syntax
+Template Literals
+Destructuring 
+Arrow functions
+
+============================= Day 3 =========================
+
+HTML 5 , CSS 3 , New ES6 features , JS References, RWD 
+
+Visual Studio Code
+
+Eclipse Mars - Node Eclipse plugin
+
+sudo npm install -g live-server
+
+npm config set proxy http://proxy.cognizant.com:6050
+npm config set strict-ssl false
+npm get prefix
+
+live-server 
+vs code icons - all file extensions will be displayed 
+
+Atom Editor
+
+Node.js runtime and Live Server is js program that runs on top of Node js run time
+Node.js server js program that runs on top of Node js run time
+
+Symbol data type
+
+Symbols / Iterator
+
+Collections in JS
+Previously only arrays
+Map and Weak Map
+
+Iterators/
+
+Generators - keep increasing the current value
+yield keyword used 
+
+Promises 
+
+Promises library  for ascyhnronous communication 
+
+Performance related JS 
+
+loading script async 
+
+MDN Javascript
+JS Good Parts
+
+Linting tools - to fix compiler type errors in browser
+
+jstherightway.org
+
+What js can do in html page 
+
+using DOM API 
+==============
+can create,select , delete, update html elements 
+can change element attribute values
+can change element style
+can change element text content
+can validate form fields
+can create rich UI components - JS , CSS , HTML , images and data
+
+Web-API - functionality implemented and abstracted by browser. 
+All browser abstracted api's as JS objects and functions
+
+DOM,XHR, Timer, HTML API's
+
+XHR 
+====
+to communicate with server side programs asynch 
+
+HTML 5 API's
+
+============= 
+
+Boot strap
+bower.io -a package manager for web 
+bower --init
+bower install bootstrap
+-------------
+JS- browser world
+
+plain JS
+jquery
+knockout
+angular
+react
+
+
+======
+
+window.document 
+
+Best for event driven programming
+
+DOM API:
+
+document.querySelector= 
+
+Debugging in JS
+
+Jquery 
+
+$ represents JQuery
+
+bower install JQuery
+
+Learning JQuery Functions
+
+library with standard browser side functions
+
+Databinding between view and model is Manual.
+--buddy
+--poor performance
+
+Knock out helps to avoid these problems with Jquery
+
+Knock Out js library does great work for data binding 
+
+Declarative syntax, automatic refresh
+
+================================= Day 4 =================================== 
+
+Knock OUT 
+
+MVM- Model-ViewModel - View 
+
+
+Knock Out JS for binding 
+Knock OUt is data-binding library while Angular is full framework
+
+bower --install knockout save
+
+Can you please give an example for table with list of records and how binding works in that case? 
+
+
+Observable vs ko.databinding
+
+Angular 1.X and 2.X -- ( fast , new-syntax)
+
+Facebook React.JS ( View Library - using Virtual DOM)
+
+Redux based flux pattern
+
+Backbone JS 
+
+REST - Architectural constraints
+
+SPA 
+
+Ember, React, Angular 
+
+bower init
+
+bower install angular
+
+Bootstrap css for easy UI components build up
+
+ng-app
+
+Angular bootstrap and sample application 
+
+Angular JS directives
+
+Directive help in DOM manipulations
+Modules
+Controllers
+Expressions
+
+In angular 1 , filters 
+In angular 2 , pipes
+
+Filters : Date , currency , json , lowercase , sorting
+
+Custom filter
+
+Angular scope
+
+scope is glue between application controller and view 
+
+Does this project not have context root ? 
+
+Directives - Existing scope , child scope and isolated scope
+
+scope - emit and broadcast
+
+two way data binding
+
+NG life cycle 
+	- on bootstrap - phase 1 compilation
+	-
+	-
+AngularJS extension for Chrome
+
