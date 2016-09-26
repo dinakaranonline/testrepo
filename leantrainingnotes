@@ -333,3 +333,57 @@ NG life cycle
 	-
 AngularJS extension for Chrome
 
+
+===================================== Day 5 ===============================
+
+Angular JS 
+
+Imperative programming 
+
+Template
+
+nodejs api framework : loopback.io
+
+===================================== Day 6 ===================================
+
+Angular 2. 
+
+Angular 1 disadvantages : Performance issues
+So many watchers for simple code 
+instead of controllers and scope , we have components
+
+Javascript Babel Transpile JS
+
+Typescript by M$ , extension of Javascript : main.js but main.ts
+
+Powerful type checking and OO features and use of ES2015 features
+
+tsc --target ES6 app.js
+
+systemjs modules for loading 
+
+Modules,Components , system js 
+
+DART -ysed by google
+
+Courses Manager - Demo
+
+Types of Binding :
+
+1.Property Binding 
+2.event binding () onclick
+3.expression binding []
+
+single responsibility principle
+
+Component driven implementation
+
+Service application
+
+provider
+
+observable and promise
+
+Router
+
+==============================================================================
