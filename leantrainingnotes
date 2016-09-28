@@ -386,4 +386,194 @@ observable and promise
 
 Router
 
-==============================================================================
+=========================================== Day 7 ======================================
+
+Why Angular 2 ? 
+
+-Avoid too many watchers
+-Performance
+-better code organisation
+
+
+ReactJS
+
+Popular JS library
+
+Declarative
+Component Based
+
+State management library - Redux
+
+It's just a view library - View part of MVC
+
+ES5 or ES6 syntax
+
+Virtual DOM
+
+Diffing algorithm ensures only changed elements are re-drawn'
+
+Including React.js core libraries and virtual dom
+Bundle js 
+
+React components , importing them 
+
+Render function : JSX syntax  Javascript Extension - HTML into js
+
+JSX code transpile to JS code , conversion done by Babel
+
+react getting started - thinkinginreact
+
+props - data flowing from parent to child
+state - private data to component
+
+https://facebook.github.io/react/docs/thinking-in-react.html
+
+=========================================== Day 8===================================
+
+Web Dev Tools
+
+NPM - Node Package Manager
+
+	- Command line tool to manage js packages
+	
+	npm login
+	npm publish
+	npm init
+	npm install <package-name> 
+	All such packages will be placed in node-modules.
+	package.json will have default js
+	
+	How to use node package, import in code and use it in our project
+	
+	npm underscore 
+	
+	2.5 lakh node packages/ check for support,popularity and project requirement
+	version : major.minor.patch	(patch for bug fixes)
+	minor for new features
+	major for existing features modified
+	
+	npm version patch
+	
+	npm uninstall <existing packages>
+	
+	npm install <packagename> <version> --save
+	
+	npm version minor
+	
+	some node packages act as dev dependencies
+	
+	Babel, Grunt
+	
+	Karma -Testrunner 
+	
+	npm install karma --save-dev
+	
+	production environment : npm -i production
+	
+	use @package if we can certain version to be deployed in production
+	
+	Installing node packages which acts as tools globally. Live server for example
+	
+	Browserify 
+	npm install --browserify --g
+	sudo npm install --browserify --g
+	
+	npm get prefix
+	npm list -g
+	npm list -g --depth=1
+	without g will result in modules of current project
+	npm set prefix=path
+	
+	npm get/set
+	npm set proxy
+	
+	Bower - web package manager 
+	installing non-npm packages 
+	
+	installing css, js , images , fonts etc , manages internally dependenices automatically when downloading
+	
+	npm install -g bower
+	
+	bower init
+	
+	bower install 
+	bower install jquery --save
+	bower install jquery#<version> --save
+	
+	Bower will identity any compatibility issues between modules
+	
+	bower install angular-route
+	
+	bower configuration 
+	
+	Build tools 
+	========
+	
+	WebPack.pdf
+	
+	Combining Files
+	
+	Front end application build process
+	
+	Minification is important step for buidling front end application 
+	
+	File Order dependencies
+	
+	Transpilation is required
+	
+	JS Linting- check for code convention and tools available to run the code
+	
+	CSS written css pre-processors 
+	
+	Less , one of  pre-processors 
+	
+	Less file can use vairables, functions and then compiles into css
+	
+	Sass , pre-processors 
+	
+	Build tools 
+	web pack ( new)
+	grunt
+	gulp	
+	brunch
+	
+	Grunt Demo
+	
+	Grunt Javascript task runner 
+	
+	npm install -g grunt -cli
+	npm init
+	
+	
+	GruntFile.js
+	
+	grunt.registertask
+	
+	GRUNT plugins
+	
+	grunt <taskname>
+	
+	Concotanate css, js files
+	
+	uglify - minify js files
+	
+	grunt-contrib-less : convert less files into css files
+	
+	Testing in all browsers :
+	
+	Headless browser module : phantomjs module
+
+Grunt vs Gulp
+
+	Gulp demo
+	Easy to use, fast 	
+	
+	npm install --g gulp--cli
+	
+	streaming api using pipe | symbol
+	
+	webpack.github.io
+	
+	=====================
+	
+	
