@@ -574,6 +574,151 @@ Grunt vs Gulp
 	
 	webpack.github.io
 	
-	=====================
+	=====================================================
+	
+	Day 9 - sick
+	
+	Webpack and Babel covered, need to catch up
+	
+	==========================================================
+	
+	Day 10 - 
+	
+	JQuery Core components
+	Jquery UI
+	Jquery Mobile - HTML5 based framework 
+	
+	But seperation of concern was an issue
+	
+	Backbone.js 
+	models, view, collection , events
+	
+	Cons: Automatic Data Binding or two way data binding not available.
+	
+	Knockout.js
+	
+	MVVM , good data binding, declarative data binding
+	
+	ember js framework 
+	
+	DOJO tool kit - now it's not widely preferred
+	
+	1st js tool kit introduced. DOJO Core and many UI components, pretty heavy 
+	
+	Sencha EXT-JS 
+	
+	UI components are good , commerical
+	
+	Rich UI components 
+	
+	MomentJS.com
+	
+	Jodatime
+	
+	lodash - modular js library 
+	
+	d3js mainly for graphs 
+	
+	build with trends , js library comparison 
+	
+	
+	highcharts for best charts similar do d2
+	
+	Responsive Web Design 
+	
+	fixed width with desktop as primary view device
+	cannot fit this into small devices like tablets
+	
+	solution :
+	use viewport  for different html/css
+	
+	limitation - maintenance as many html /css need to be handled
+	
+	single css is used for all types of devices  - responsive web design 
+	
+	RWD principles eg.foodsense.is
+
+	
+	1.Use fluid/flexible grid system to page
+	dont use pixels but only abolsute values like % or EM's
+	2.Flexible media content
+	3.
+	
+	Flexible grid system and media queries
+	
+	Responsive CSS Framework - Bootstrap from twitter
+	
+	flexible container 
+	
+	Bootstrap containers,components 
+	
+	Foundation -front end framework
+	
+	Semantic UI library
+	
+	UIKit 
+	
+	Material Design
+	Polymer
+	Material Design Lite
+	Angular Material
+	MUICSS
+	
+	Good Editors for Front end development
+	HTML/CSS/JS
+	======
+	-Atom
+	-Sublime Text
+	- VS Code
+	
+	Icon 
+	=======
+	1.Font awesome
+	2. IconMoster
+	3. Icons8
+	4. IconFinder
+	5. Fontello - create own type of icons
+	
+	Build tools
+	=========
+	1. Grunt
+	2. Gulp
+	3. Webpack (module bundler + module loader) (webpack howto github)
+	4. Brunch 
+	
+	Compiler/Polyfills/Transpilers
+	=========
+	
+	Google Closure 
+	Tracure 
+	es6shmip
+	Babel 
+	Typescript - language cum transpiler)
+	
+	Testing 
+	
+===========
+
+	Qunit - provided by JQuery
+	Jasmine testing framework
+	
+	Testcases need testrunner . Jasmine can be used
+	
+	Karma- Test Runner
+	
+	Mokka 
+	
+	Angular vs React
+	
+	==================================================
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
