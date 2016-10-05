@@ -710,7 +710,89 @@ Grunt vs Gulp
 	
 	Angular vs React
 	
-	==================================================
+	
+	=============================== Day 11 ====================================== 
+	
+	
+	Google jS engine , v8 engine , open source (C++) used in chrome browser
+	
+	V8 source code
+	
+	takes instructions from js and then converts into corresponding machine language compatible
+	
+	Xcode , apple IDE 
+	
+	V8 - ecma script specification
+	
+	Node.js
+	
+	Why ?
+	
+	-Faster and concurrent
+	-lighter
+	-perfect for api
+	-js and json	
+	
+	Use cases: LinkedIn , Paypal 
+	
+	Node standard libraries are JS which then convert into Node Binding C++ ( socket/http) through V8 has Windows
+	and Linux Kernel
+	
+	Same language for both front and back end
+	
+	Loopback - framework 
+	
+	Node fastest open-source community
+	
+	event driven and non-blocking IO model
+	
+	Node is only js runtime available right now
+	
+	Traiditional programming 
+	
+	when query is being executed, IO operation blocks other
+	
+	context switching is not free
+	execution stacks take up memory
+	
+	for massive concurrency, cannot use OS thread for each connection
+	
+	either blocks the entire process or implies multiple execution stack
+	
+	Missing infra...
+	
+	Node JS is great in evented programming
+	
+	Node bindings : thread pools (libeio) and event loop (libuv)
+	
+	Ryan Dhal - founder of Nodejs
+	
+	Eclipse node eclipse plug-in 
+	
+	nodejs bin path in preferences
+	
+	=====
+	create server with just 2 lines of code
+	var http=require('http');
+	var server=http.createServer();
+	
+	createReadStream for reading small chunks of data
+	
+	child process/cluster
+	
+	================= Day 12 =========
+	
+	Leave 
+	
+	=================== Day 13 ==========
+	
+	No session
+	
+	
+	
+	
+	
+	
 	
 	
 	
