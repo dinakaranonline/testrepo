@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>MongoDB/Spring Boot tutorial</title>
+        <style>
+            table, th, td {
+               border: 1px solid black;
+               border-spacing: 0px;
+            }
+            th, td {
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+    	<h1> What Car???? </h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Manufacturer</th>
+                    <th>Fuel Type</th>
+                    <th>Launch Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="car : ${carList}">
+                    <td th:text="${car.name}"></td>
+                    <td th:text="${car.manufacturer}"></td>
+                    <td th:text="${car.fuelType}"></td>
+                    <td th:text="${car.launchYear}"></td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <h2>Add Car</h2>
+        <form action="/addCar" method="POST">
+            Make <input type="text" id="name" name="name" /><br />
+            Model <input type="text" id="manufacturer" name="manufacturer" /><br />
+            Fuel Type <input type="text" id="fuelType" name="fuelType" /><br />
+            Launch Year <input type="text" id="launchYear" name="launchYear" /><br />
+            <input type="submit" />
+        </form>
+        <h2>Search for cars by Manufacturer</h2>
+        <form action="/search" method="GET">
+            <input type="text" name="search" id="search" th:value="${search}" />
+            <input type="submit" value="Search" />
+        </form>
+    </body>
+</html>

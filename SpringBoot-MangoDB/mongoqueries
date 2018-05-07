@@ -1,0 +1,19 @@
+curl -i -X POST -H "Content-Type:application/json" -d "{  \"firstName\" : \"Dinakaran\",  \"lastName\" : \"Sankaranarayan\" }" http://localhost:8080/people
+
+curl -i -X POST -H "Content-Type:application/json" -d "{  \"firstName\" : \"Test\",  \"lastName\" : \"Dinakaran\" }" http://localhost:8080/people
+
+curl -i -X POST -H "Content-Type:application/json" -d "{  \"firstName\" : \"Neetu\",  \"lastName\" : \"Dinakaran\" }" http://localhost:8080/people
+
+curl -i -X POST -H "Content-Type:application/json" -d "{  \"firstName\" : \"Sindhuja\",  \"lastName\" : \"Ashokkumar\" }" http://localhost:8080/people
+
+curl -i -X POST -H "Content-Type:application/json" -d "{  \"name\" : \"Figo\",  \"manufacturer\" : \"Ford\" , \"fuelType\" : \"Diesel\", \"launchYear\":\"2011\" }" http://localhost:8080/cars
+
+curl -i -X POST -H "Content-Type:application/json" -d "{  \"name\" : \"Ecosport\",  \"manufacturer\" : \"Ford\" , \"fuelType\" : \"Diesel\", \"launchYear\":\"2014\" }" http://localhost:8080/cars
+
+
+
+curl -i -X POST -H "Content-Type:application/json" -d "{  \"name\" : \"Swift\",  \"manufacturer\" : \"Maruti\" , \"fuelType\" : \"Petrol\", \"launchYear\":\"2006\" }" http://localhost:8080/cars
+
+curl -i -X POST -H "Content-Type:application/json" -d "{  \"name\" : \"i10\",  \"manufacturer\" : \"Hyundai\" , \"fuelType\" : \"Diesel\", \"launchYear\":\"2008\" }" http://localhost:8080/cars
+
+curl http://localhost:8080/cars/findByName?name=Figo
