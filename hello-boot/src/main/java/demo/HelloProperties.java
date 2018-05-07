@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class HelloProperties {
 
 	/**
-	 * Greeting message returned by the Hello Rest service , updated now
+	 * Greeting message returned by the Hello Rest service , updated now from GIT Directly
 	 */
 	private String greeting = "Welcome ";
 
